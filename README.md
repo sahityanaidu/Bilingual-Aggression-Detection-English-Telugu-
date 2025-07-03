@@ -7,9 +7,13 @@ This repository contains two Jupyter notebooks and accompanying data for a multi
 \`\`\`
 .
 ├── agr_en_train.csv
+
 ├── telugu_val_separated_tab.csv
+
 ├── NLP_PROJECT_eng.ipynb       # English aggression model
+
 ├── nlp_project_tel.ipynb       # Telugu aggression model
+
 └── NLP_REPORT.pdf              # Final project report
 \`\`\`
 
