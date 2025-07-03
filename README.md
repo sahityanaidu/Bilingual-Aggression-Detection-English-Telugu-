@@ -1,14 +1,11 @@
 # Aggression-Identification-English-Telugu-
 
-# 1. Create README.md with your project description
-cat > README.md << 'EOF'
-# NLP Aggression Identification Project
-
 This repository contains two Jupyter notebooks and accompanying data for a multilingual aggression identification model in English and Telugu.
 
 ## 📂 Project Structure
 
 \`\`\`
+.
 ├── agr_en_train.csv
 ├── telugu_val_separated_tab.csv
 ├── NLP_PROJECT_eng.ipynb       # English aggression model
@@ -60,15 +57,6 @@ This repository contains two Jupyter notebooks and accompanying data for a multi
 - **Report**  
   See \`NLP_REPORT.pdf\` for detailed methodology, experiments, results, and conclusions.
 
-## 📝 Datasets
-
-- **agr_en_train.csv**: English aggression-labelled sentences.  
-- **telugu_val_separated_tab.csv**: Telugu validation set (tab-separated).
-
-## 📈 Results & Evaluation
-
-Graphs, metrics, and confusion matrices are generated inline in each notebook as part of the model evaluation steps.
-
 ## 🤝 Contributing
 
 Feel free to open issues or submit pull requests for improvements, additional language support, or bug fixes.
@@ -78,41 +66,3 @@ Feel free to open issues or submit pull requests for improvements, additional la
 This project is released under the MIT License. See [LICENSE](LICENSE) for details.
 EOF
 
-# 2. Initialize a new Git repository (if not already initialized)
-git init
-
-# 3. Create your requirements.txt (if not already present)
-cat > requirements.txt << 'EOF'
-imbalanced-learn
-fasttext
-gensim
-googletrans
-indic-nlp-library
-indic-transliteration
-keras-tuner
-matplotlib
-nltk
-numpy
-pandas
-scikit-learn
-seaborn
-stanza
-tensorflow
-torch
-transformers
-EOF
-
-# 4. Stage your files
-git add README.md requirements.txt agr_en_train.csv telugu_val_separated_tab.csv NLP_PROJECT_eng.ipynb nlp_project_tel.ipynb NLP_REPORT.pdf
-
-# 5. Commit your changes
-git commit -m "Initial commit: add README, requirements, notebooks, data, and report"
-
-# 6. Rename default branch to main (optional but recommended)
-git branch -M main
-
-# 7. Add your remote repository
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-
-# 8. Push to GitHub
-git push -u origin main
