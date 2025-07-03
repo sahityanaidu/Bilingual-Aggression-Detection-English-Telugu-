@@ -61,8 +61,3 @@ This repository contains two Jupyter notebooks and accompanying data for a multi
 
 Feel free to open issues or submit pull requests for improvements, additional language support, or bug fixes.
 
-## 📄 License
-
-This project is released under the MIT License. See [LICENSE](LICENSE) for details.
-EOF
-
