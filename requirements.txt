@@ -1,0 +1,19 @@
+# requirements.txt
+
+imbalanced-learn
+fasttext
+gensim
+googletrans
+indic-nlp-library
+indic-transliteration
+keras-tuner
+matplotlib
+nltk
+numpy
+pandas
+scikit-learn
+seaborn
+stanza
+tensorflow
+torch
+transformers
