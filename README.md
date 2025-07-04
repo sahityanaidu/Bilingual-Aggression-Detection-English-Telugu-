@@ -1,4 +1,4 @@
-# Aggression-Identification-English-Telugu-
+# Aggression-Identification-English-Telugu
 
 This repository contains two Jupyter notebooks and accompanying data for a multilingual aggression identification model in English and Telugu.
 
